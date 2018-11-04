@@ -110,8 +110,6 @@ def changing_alan
      alans_new_info = "GUI"
      
      programmer_hash.update(programmer_hash) {|key,value| known_for = "GUI"}
-     binding.pry
-     programmer_hash[:alan_kay][:known_for]
      
 end
 
